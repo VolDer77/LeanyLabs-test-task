@@ -59,10 +59,15 @@
   line-height: 29px;
   text-align: center;
   background-color: #F2F2F2;
-  color: rgba(97, 97, 97, 0.28);
+  color: #353535;
   border: 0;
   outline: none;
 }
+
+.section-form__input::placeholder{
+  color: rgba(97, 97, 97, 0.28);
+}
+
 
 .section-form__btn {
   font-family: "Roboto", sans-serif;
