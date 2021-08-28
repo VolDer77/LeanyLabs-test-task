@@ -92,6 +92,15 @@
   overflow-y: scroll;
 }
 
+.section-location::-webkit-scrollbar {
+  display: none;
+}
+
+.section-location {
+-ms-overflow-style: none;  
+scrollbar-width: none;
+}
+
 .section-location__list{
   font-family: 'Roboto Mono', monospace;
 }
