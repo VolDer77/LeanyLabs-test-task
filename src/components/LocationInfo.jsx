@@ -45,7 +45,7 @@ export const LocationInfo = ({ location, loading, error }) => {
                   <span style={{ color: styles.color }}>
                     {typeof location[param] === "string"
                       ? `“${location[param]}”`
-                      : location[param]}
+                      : `${location[param]}`}
                   </span>
                 </h3>
               </li>
