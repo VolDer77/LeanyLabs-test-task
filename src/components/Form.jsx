@@ -26,7 +26,6 @@ export const Form = ({ getGeolocation }) => {
 
   const searchLocation = () => {
     getGeolocation(value);
-    setValue("");
   };
 
   return (
