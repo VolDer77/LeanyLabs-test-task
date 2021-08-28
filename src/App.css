@@ -1,5 +1,6 @@
 .section-inner{
   min-height: 100vh;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +11,8 @@
 }
 
 .section-content{
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   height: 750px;
   background-color:#014E6C;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -48,9 +50,11 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 35px;
 }
 
 .section-form__input{
+  font-family: "Roboto", sans-serif;
   flex-grow: 1;
   font-size: 25px;
   font-weight: 700;
@@ -63,6 +67,7 @@
 }
 
 .section-form__btn {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   width: 120px;
   background-color: #D22C32;
@@ -78,4 +83,47 @@
 
 .section-form__btn:hover{
   background-color: #e01a20;
+}
+
+.section-location{
+  width: 90%;
+  margin: 0 auto;
+  height: 540px;
+  overflow-y: scroll;
+}
+
+.section-location__list{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.section-location__list-item{
+  display: flex;
+  align-items: center;
+}
+
+.section-location__list-item + .section-location__list-item{
+  margin-top: 20px;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  line-height: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.text{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+span {
+  padding-left: 7px;
 }
