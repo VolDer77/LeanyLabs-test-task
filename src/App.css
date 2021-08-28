@@ -24,6 +24,7 @@
 .section-header{
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .section-header__logo{
@@ -37,4 +38,44 @@
   font-weight: 700;
   line-height: 23px;
   color: #fff;
+}
+
+.section-form{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  height: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.section-form__input{
+  flex-grow: 1;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  background-color: #F2F2F2;
+  color: rgba(97, 97, 97, 0.28);
+  border: 0;
+  outline: none;
+}
+
+.section-form__btn {
+  text-align: center;
+  width: 120px;
+  background-color: #D22C32;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.section-form__btn:hover{
+  background-color: #e01a20;
 }
