@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LeanyLabs-test-task/static/css/main.b7590176.chunk.css",
+    "main.js": "/LeanyLabs-test-task/static/js/main.a310abd5.chunk.js",
+    "main.js.map": "/LeanyLabs-test-task/static/js/main.a310abd5.chunk.js.map",
+    "runtime-main.js": "/LeanyLabs-test-task/static/js/runtime-main.1c561e71.js",
+    "runtime-main.js.map": "/LeanyLabs-test-task/static/js/runtime-main.1c561e71.js.map",
+    "static/js/2.21c8bd16.chunk.js": "/LeanyLabs-test-task/static/js/2.21c8bd16.chunk.js",
+    "static/js/2.21c8bd16.chunk.js.map": "/LeanyLabs-test-task/static/js/2.21c8bd16.chunk.js.map",
+    "index.html": "/LeanyLabs-test-task/index.html",
+    "static/css/main.b7590176.chunk.css.map": "/LeanyLabs-test-task/static/css/main.b7590176.chunk.css.map",
+    "static/js/2.21c8bd16.chunk.js.LICENSE.txt": "/LeanyLabs-test-task/static/js/2.21c8bd16.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/LeanyLabs-test-task/static/media/background.517fd077.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c561e71.js",
+    "static/js/2.21c8bd16.chunk.js",
+    "static/css/main.b7590176.chunk.css",
+    "static/js/main.a310abd5.chunk.js"
+  ]
+}
