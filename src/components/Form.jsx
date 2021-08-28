@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MaskedInput from "react-text-mask";
 
-export const Form = () => {
+export const Form = ({ getGeolocation }) => {
   const [value, setValue] = useState("");
 
   const inputValidationProps = {
@@ -24,6 +24,11 @@ export const Form = () => {
     },
   };
 
+  const searchLocation = () => {
+    getGeolocation(value);
+    setValue("");
+  };
+
   return (
     <section className="section-form">
       <MaskedInput
@@ -33,7 +38,9 @@ export const Form = () => {
         className="section-form__input"
         placeholder="8 . 8 . 8 . 8"
       />
-      <button className="section-form__btn">Search</button>
+      <button className="section-form__btn" onClick={searchLocation}>
+        Search
+      </button>
     </section>
   );
 };
