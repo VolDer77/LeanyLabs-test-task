@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { LocationInfo } from "./components/LocationInfo";
 
 import "./App.css";
+import { getSortedParams } from "./utils";
 
 function App() {
   const [location, setLocation] = useState(null);
@@ -13,12 +14,7 @@ function App() {
     setLoading(true);
     const response = await fetch(`https://ipapi.co/${ip}/json/`);
     const data = await response.json();
-    const sortedData = Object.keys(data)
-      .sort()
-      .reduce((acc, item) => {
-        acc[item] = data[item];
-        return acc;
-      }, {});
+    const sortedData = getSortedParams(data);
     setLocation(sortedData);
     setLoading(false);
   };
